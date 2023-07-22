@@ -1,1 +1,70 @@
+/* Shared Style */
+/* *{
+    margin:0;
+    padding:0;
+} */
+body {
+    font-family: 'lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
 
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    padding: 18px 35px 19px 36px;
+    color: #ffffff;
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+/* Nav Related Style */
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+
+}
+/* Header related */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding:30px 30px 30px 150px;
+    display:flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-content{
+    
+}
